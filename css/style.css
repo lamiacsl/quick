@@ -1,0 +1,212 @@
+/*common start*/
+body{
+	margin:0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight:400 ;
+	color:#3f3d56 ;
+}
+
+/*common end*/
+/*header start*/
+header{
+	/*padding:15px 0;*/
+	border-bottom:3px solid #f2f3f5;
+
+}
+.container{
+	width: 90%;
+	/*border: 1px solid red;*/
+	margin:0 auto;
+	overflow:hidden;
+} 
+
+.logo{
+	width:10%;
+
+	float:left;
+
+}
+
+.logo a{
+}
+
+.logo a img {
+	width:100%;
+}
+
+.menu{
+	width: 50%;
+	
+	float:right;
+
+}
+
+
+.menu ul{
+	float:right;
+}
+.menu ul li{
+	list-style: none;
+	float:left;
+}
+.menu ul li a{
+	padding:7px 30px;
+	display:inline-block;
+	color:#3f3d56;
+	text-decoration: none;
+	transition: .3s;
+}
+.menu ul li a:hover{
+	color:#008aff;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+
+/*header end*/
+
+/*banner start*/
+.banner{
+	padding:60px 0;
+
+}
+.container2{
+	margin:0 auto;
+	width:50%;
+	/*border: 1px solid red;*/
+	text-align:center;
+	overflow: hidden;
+}
+.b_h1{
+	margin:0;
+	font-size: 60px;
+    font-weight: 700;
+    line-height: 84px;
+     padding: 0 50px;
+
+   
+}
+.b_h1 span{
+	color: #008aff;
+}
+.b_p{
+	    margin: 10px 0 20px;
+	    line-height: 29px;
+	    padding: 0 10px;
+}
+.b_p{}
+.b_img {
+	 margin: 0 auto;
+	    width: 84%;
+
+}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+/*success start*/
+.container2{
+	overflow: hidden;
+	
+}
+.success{
+	padding:60px 0;
+
+}
+.s_left{
+	
+	width:41%;
+	text-align:right ;
+	float: left;
+}
+
+.s_left h2{
+	margin:0;
+	font-size: 47px;
+	font-weight: 700;
+	color: #f15767;
+}
+
+.s_left p{
+	margin:7 0 0px;
+	line-height: 29px;
+}
+
+.s_right{
+	
+	width:55%;
+	text-align:left ;
+	float: right;
+	
+
+}
+.s_right h1{
+	margin:0px;
+	font-size: 58px;
+    font-weight: 700;
+}
+
+
+/*success  end*/
+
+/*feature start*/
+.feature{
+	padding-bottom:60px;
+}
+.f_item{
+	margin-right:1.9%;
+	/*border:1px solid red;*/
+	width: 29%;
+    padding: 50px 25px;
+    float:left;
+
+}
+.f_item:first-child {
+	background-color:#fdebed;
+}
+.f_item:nth-child(2) {
+	background-color:#ebf9f4 ;
+}
+.f_item:last-child {
+	margin:0px;
+	background-color:#fff7e8
+
+}
+
+	
+
+.f_img {
+
+}
+.f_img img {
+	width:100%;
+}
+.f_item h2 {
+	margin:15px 0;
+	 font-size: 35px;
+	 font-weight: 700;      
+}
+.f_item p {
+	  margin: 0;
+	  line-height: 29px;
+}
+/*feature end*/
+  footer {
+  	background-color: #008aff;
+  	padding:25px 0;
+
+
+  }
+  footer p {
+  	margin:0;
+  	 text-align:center;
+  	 color:white;
+  }
+  footer p a {
+  	hover
+  	color:white;
+  	text-decoration: none;
+  }
+
